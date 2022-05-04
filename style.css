@@ -1,0 +1,51 @@
+body {
+
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border: 1px solid aquamarine;
+    display: inline-block;
+
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: "\1F600";
+    font-size: 100px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    content: "\1F612";
+    font-size: 80px;
+    line-height: 100px;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#restart{
+    width: 150px;
+    height:100px;
+}
